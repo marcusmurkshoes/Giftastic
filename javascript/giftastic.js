@@ -14,7 +14,7 @@ $(document).ready(function() {
 // QueryURl variable used in AJAX call
 
 var queryUrl = "https://api.giphy.com/v1/gifs/random?api_key=0oaEJ1zOCiHjDpaLEjTehIOANWf484SM&tag=dogs"
-// AJAX call
+// AJAX call...
 $.ajax({
 	url: queryUrl,
 	method: "GET"
